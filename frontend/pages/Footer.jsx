@@ -1,5 +1,5 @@
 import react from "react";
-import badge from "../src/assets/badge.png";
+import badge from "../src/assets/TheSchlote.png";
 
 const footer =() => {
     return(
@@ -7,7 +7,7 @@ const footer =() => {
 <footer className="footer footer-horizontal footer-center bg-blue-200 text-black-content p-10">
   <aside>
 <img src={badge} alt="My Badge" width="50" height="50" />    <p className="font-bold">
-      Moral Support Studios
+      TheSchlote
       <br />
       In Development
     </p>

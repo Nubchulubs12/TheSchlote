@@ -26,5 +26,20 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+/* Example responsive rule */
+@media (max-width: 768px) {
+  .custom-box {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) {
+  .custom-box {
+    padding: 20px;
+    font-size: 18px;
+  }
+}
+
 
 
